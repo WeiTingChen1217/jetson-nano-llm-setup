@@ -1,5 +1,3 @@
-
-```markdown
 # Jetson Nano 本地 LLM 部署紀錄（Qwen2.5-Coder + SillyTavern 網頁介面）
 
 **系統環境**  
@@ -177,4 +175,3 @@ whitelist:
 **完成日期**：2026 年 1 月 21 日  
 **作者**：威廷
 
-```
