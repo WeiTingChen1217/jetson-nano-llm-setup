@@ -7,3 +7,6 @@ gcc-8.5.0/
 # 忽略 models 資料夾
 models/
 
+# 忽略 log
+llama-server.log
+sillytavern.log

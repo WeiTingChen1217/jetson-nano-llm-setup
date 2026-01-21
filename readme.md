@@ -12,18 +12,23 @@
 **專案目錄結構**  
 ```
 ~/Documents/llama/
+├── .git/
+├── .gitmodules
 ├── llama5050gpu.cpp/          # llama.cpp fork (CUDA 支援 Jetson Nano)
 │   └── build/
 │       └── bin/
 │           ├── llama-cli
 │           └── llama-server
-├── models/                    # 模型檔案
-│   ├── qwen2.5-coder-1.5b-instruct-q5_k_m.gguf
+├── models/                    # 模型檔案（建議 .gitignore 忽略）
 │   └── qwen2.5-coder-3b-instruct-q4_k_m.gguf
 ├── SillyTavern/               # 網頁聊天介面
 │   ├── server.js
 │   ├── config.yaml
-│   └── sillytavern.log
+│   └── node_modules/
+├── start-all.sh               # 一鍵啟動 llama-server + SillyTavern
+├── stop-all.sh                # 一鍵停止服務
+├── llama-server.log
+├── sillytavern.log
 └── README.md                  # 本文件
 ```
 
