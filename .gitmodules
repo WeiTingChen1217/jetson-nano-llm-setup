@@ -1,0 +1,8 @@
+[submodule "llama5050gpu.cpp"]
+	path = llama5050gpu.cpp
+	url = https://github.com/WeiTingChen1217/llama5050gpu.cpp.git
+	branch = llamaJetsonNanoCUDA
+[submodule "SillyTavern"]
+	path = SillyTavern
+	url = https://github.com/WeiTingChen1217/SillyTavern.git
+	branch = JetsonNanoCUDA
